@@ -64,7 +64,9 @@ helmet-detection-app/
 │
 ├── app.py                  # Streamlit application
 ├── no_helmet.pt           # Trained YOLO model
-├── output.jpg             # Sample output
+├── sample # Sample output
+     └──input.jpg
+     └──output.jpg
 ├── requirements.txt       # Dependencies
 └── README.md
 ```
