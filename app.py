@@ -7,7 +7,7 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    return YOLO(r"C:\python_projects\helmet survilence\no_helmet.pt")
+    return YOLO(r"Helmet-Surveilence-System\helmet survilence\no_helmet.pt")
 
 model = load_model()
 names = model.names
