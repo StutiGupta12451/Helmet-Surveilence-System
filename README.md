@@ -4,30 +4,30 @@ A computer vision-based application that detects helmet violations in real-time 
 
 The system identifies:
 
-* 🏍️ Motorcyclists
-* ❌ Riders without helmets
-* 🔢 Number plates (for violation tracking)
+* Motorcyclists
+* Riders without helmets
+* Number plates (for violation tracking)
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📤 Upload **images or videos**
-* 🎯 Detect:
+* Upload **images or videos**
+* Detect:
 
   * Motorcyclists
   * No-helmet riders
   * Number plates
-* 🔗 Intelligent filtering:
+* Intelligent filtering:
 
   * Only flags **riders without helmets**
   * Links rider → number plate
-* 🖼️ Real-time processed preview
-* 📥 Download processed output (image/video)
+* Real-time processed preview
+* Download processed output (image/video)
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The YOLO model detects objects:
 
@@ -48,16 +48,16 @@ The system identifies:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
-* **YOLOv8 (Ultralytics)**
+* **YOLOv11 (Ultralytics)**
 * **OpenCV**
 * **Streamlit**
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 helmet-detection-app/
@@ -71,16 +71,16 @@ helmet-detection-app/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/helmet-detection-app.git
 cd helmet-detection-app
 ```
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -94,7 +94,7 @@ pip install streamlit ultralytics opencv-python numpy
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 streamlit run app.py
@@ -108,7 +108,7 @@ http://localhost:8501
 
 ---
 
-## 📸 Usage
+## Usage
 
 1. Upload an image or video
 2. The system processes it automatically
@@ -117,7 +117,7 @@ http://localhost:8501
 
 ---
 
-## 📌 Model Details
+## Model Details
 
 * Framework: YOLOv8 (Ultralytics)
 * Custom trained classes:
@@ -128,7 +128,7 @@ http://localhost:8501
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Accuracy depends on model training quality
 * Plate detection may fail in:
@@ -139,17 +139,17 @@ http://localhost:8501
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
-* 🔍 Add **Pytesseract OCR** for plate number extraction
+*  Add **Pytesseract OCR** for plate number extraction
 * 🇮🇳 Indian number plate format validation
-* 📊 Violation analytics dashboard
-* 📷 Live CCTV / webcam integration
-* ☁️ Cloud deployment (Streamlit Cloud / HuggingFace)
+* Violation analytics dashboard
+* Live CCTV / webcam integration
+* Cloud deployment (Streamlit Cloud / HuggingFace)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -161,10 +161,8 @@ Feel free to:
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available under the MIT License.
 
 ---
-
-⭐ If you like this project, give it a star on GitHub!
