@@ -33,6 +33,7 @@ The system identifies:
 
    * `motorcyclist`
    * `no-helmet`
+   * `helmet`
    * `plate`
 
 2. Logic is applied:
