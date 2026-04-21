@@ -122,11 +122,12 @@ http://localhost:8501
 
 ## Model Details
 
-* Framework: YOLOv8 (Ultralytics)
+* Framework: YOLOv11 (Ultralytics)
 * Custom trained classes:
 
   * `motorcyclist`
   * `no-helmet`
+  * `helmet`
   * `plate`
 
 ---
